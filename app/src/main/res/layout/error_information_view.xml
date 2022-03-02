@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/abc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/size_24"
+        android:layout_marginTop="@dimen/size_36"
+        android:layout_marginRight="@dimen/size_24">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/ivContainer"
+            android:layout_width="match_parent"
+            android:layout_height="168dp"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/ivBanner"
+                style="@style/autoAdjustImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/tvTitleInformation"
+            style="@style/Text.16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_24"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.2"
+            app:layout_constraintTop_toBottomOf="@id/ivContainer"
+            tools:text="@tools:sample/lorem" />
+
+        <TextView
+            android:id="@+id/tvMessageInformation"
+            style="@style/Text.14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_8"
+            android:layout_marginBottom="@dimen/size_24"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvTitleInformation"
+            tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae varius augue. Nullam quam lacus, lacinia a nisi laoreet, rutrum ultrices erat. Morbi blandit odio a turpis iaculis suscipit. Sed nec faucibus nibh. Donec viverra lorem ut elit hendrerit, et semper turpis gravida. Sed faucibus est quis finibus vulputate. Praesent sagittis, arcu in rhoncus interdum, felis felis varius massa, in placerat risus lorem quis dolor. Aliquam erat volutpat. Ut in turpis sit amet metus faucibus ultrices et nec lorem. Fusce nunc diam, viverra ut risus quis, blandit blandit dui. Nunc dui elit, lobortis non malesuada vitae, sagittis sit amet est. Donec tempor vel sem dignissim ultricies.Suspendisse venenatis convallis augue id aliquet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum mattis massa non turpis vulputate, sed iaculis libero tempus. Aenean ultrices lorem dui, nec fermentum turpis imperdiet nec. Vestibulum mauris enim, tempor et laoreet venenatis, dignissim non purus. Phasellus porta neque at libero dapibus iaculis. Nullam lacinia, magna sit amet tristique rutrum, felis nulla mollis sem, sed viverra lacus augue ac tellus. Vivamus nec vestibulum erat. Cras in dapibus orci. Sed hendrerit laoreet maximus. Etiam tincidunt nisi quis leo lacinia bibendum eu ut leo. Mauris tincidunt eros ut nibh malesuada, nec interdum enim vestibulum." />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

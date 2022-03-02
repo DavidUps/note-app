@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">NoteApp</string>
+    <string name="more_info">more info</string>
+    <string name="note_card_transition_name">note_card_%1$s</string>
+    <string name="note_card_detail_transition_name">note_card_detail</string>
+    <string name="common_error_title">Oops!\nError displaying information</string>
+    <string name="common_error_message">Please try again in a few minutes.</string>
+    <string name="error_screen_retry">Retry</string>
+    <string name="message">Message</string>
+    <string name="title">Title</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="image_url">Image URL</string>
+    <string name="delete">Delete</string>
+</resources>
